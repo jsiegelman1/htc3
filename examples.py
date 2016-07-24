@@ -8,3 +8,4 @@ def filter2(list, cond):
 	
 assert filter2([1, -1, 0, 5, 2], lambda x: x > 0) == [1, 5, 2]
 assert filter2(["Hello", "Hi", "Bye", "This is a string"], lambda x: len(x) > 3) == ["Hello", "This is a string"]
+assert map(len, ["Hello", "Hi", "Bye", "This is a string"]) == [5, 2, 3, 16]
