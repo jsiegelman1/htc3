@@ -1,3 +1,4 @@
+#produce a list that contains every item in list where cond(item) is True.
 def filter2(list, cond):
 	ret = []
 	for i in iter(list):
